@@ -1,4 +1,4 @@
-const URL = "http://localhost:3000" + "/users";
+const URL = "https://alura-geek-red.vercel.app" + "/users";
 
 export const validateUser = async({ email, password }) =>{
   const user = await fetch(URL + `?email=${email}&password=${password}`, {

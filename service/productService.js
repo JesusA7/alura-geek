@@ -1,4 +1,4 @@
-const URL = "http://localhost:3000/products";
+const URL = "https://alura-geek-red.vercel.app/products";
 
 const listProducts = async () => {
   const res = await fetch(URL);
