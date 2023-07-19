@@ -1,0 +1,108 @@
+.productos {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  background-color: var(--texto-gris-5);
+}
+
+.productos__titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.productos__productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minMax(max(136px, 15%), 1fr));
+  justify-content: left;
+  gap: 1rem;
+}
+.productos__cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.productos__enlace {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--texto-blanco-100);
+  background-color: var(--texto-azul-100);
+  text-decoration: none;
+  align-items: center;
+  cursor: pointer;
+}
+.productos__titulo{
+  margin: 0;
+}
+.productos__producto {
+  position: relative;
+}
+.productos__producto__imagen {
+  height: 174px;
+  /* aspect-ratio: 1/1; */
+  width: 100%;
+  object-fit: cover;
+}
+/* .productos__producto__imagen:hover {
+  filter: brightness(90%);
+} */
+.productos__producto > h4,
+p,
+a {
+  display: block;
+  margin-top: 0.5rem;
+}
+.productos__producto__titulo {
+  font-size: 0.875rem;
+  color: var(--texto-gris-100);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.productos__producto__precio {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--texto-gris-100);
+}
+.productos__producto__categoria {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--texto-azul-100);
+  text-decoration: none;
+  cursor: pointer;
+}
+.productos__producto--eliminar {
+  transform: translateX(-175%);
+}
+
+.icono {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  /* filter:invert(93%) sepia(4%) saturate(29%) hue-rotate(351deg) brightness(89%) contrast(86%); */
+  &:hover {
+    filter: invert(45%) sepia(42%) saturate(1329%) hue-rotate(180deg)
+      brightness(90%) contrast(98%);
+  }
+  
+}
+
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 769px) {
+  .productos__titulo {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .productos__producto__imagen {
+    width: 174px;
+  }
+}

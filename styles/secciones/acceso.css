@@ -1,0 +1,29 @@
+.acceso{
+    background-color: var(--texto-gris-5);
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+}
+.acceso .contenedor{
+    display: grid;
+    place-content: center;
+}
+.acceso__formulario{
+    width: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.acceso__titulo{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--texto-gris-100);
+}
+
+@media screen and (max-width:769px){
+    .acceso__formulario{
+        width: 275px;
+    }
+}

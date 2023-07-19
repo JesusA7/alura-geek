@@ -1,0 +1,30 @@
+:root {
+  --texto-negro-100: #000;
+  --texto-azul-100: #2a7ae4;
+  --texto-azul-10:#EAF2FD;
+  --texto-blanco-100:#ffffff;
+  --texto-gris-100: #464646;
+  --texto-gris-50:#A2A2A2;
+  --texto-gris-30:#C8C8C8;
+  --texto-gris-5:#F5F5F5;
+  
+  
+
+  --texto-familia:'Raleway', sans-serif;
+
+  --opacidad-negro: 0.2;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    margin-top: 0;
+}

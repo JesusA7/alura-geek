@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@alurageek.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "link": "https://falabella.scene7.com/is/image/FalabellaPE/118007082_1?wid=800&hei=800&qlt=70",
+      "category": "Star Wars",
+      "name": "Mini Joda",
+      "price": "185",
+      "description": "funko pop más demandado",
+      "id": 1
+    },
+    {
+      "link": "https://sgeek.pe/wp-content/uploads/2023/02/6-7.png",
+      "category": "Star Wars",
+      "name": "Dark Blader",
+      "price": "152",
+      "description": "nueva descripcion",
+      "id": 2
+    },
+    {
+      "link": "https://sevenfiguarts.com.pe/wp-content/uploads/2022/09/Funko-Pop-Star-Wars-Obi-Wan-Kenobi-Obi-Wan-Kenobi-PERU.jpg",
+      "category": "Star Wars",
+      "name": "Obiwan Kenobi",
+      "price": "184",
+      "description": "otra descripcion",
+      "id": 3
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/612NKR6mniL.jpg",
+      "category": "Star Wars",
+      "name": "Arturito",
+      "price": "120",
+      "description": "Es un producto funko",
+      "id": "4610bf37-2cc2-4a71-a9f6-933f332860d2"
+    },
+    {
+      "link": "https://www.supermegapop.pe/wp-content/uploads/2023/06/LSM889698707442_0.jpg",
+      "category": "Star Wars",
+      "name": "C3po",
+      "price": "493",
+      "description": "Es un funko pop genial",
+      "id": "451732e0-9926-46e8-a993-3b84970e7777"
+    },
+    {
+      "link": "https://pophuntersperu.com/cdn/shop/products/FunkoPopAnakinSkywalker.jpg?v=1644892200",
+      "category": "Star Wars",
+      "name": "Anakin Skywalker",
+      "price": "939",
+      "description": "Anakin Skywalker, un hombre humano sensible a la Fuerza, fue un Caballero Jedi de la República Galáctica y el Elegido de la Fuerza. Durante las Guerras Clon, sus logros como comandante en el campo de batalla le valieron el apodo del Héroe Sin Miedo. Después de pasar al lado oscuro de la Fuerza, se hizo conocido como Darth Vader, un Señor Oscuro de los Sith y aprendiz del Emperador Darth Sidious. ",
+      "id": "6eebdf53-c44c-4047-84e6-15dc08f59c71"
+    },
+    {
+      "link": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F178%2FINFANTIL%2FET-000991-1.png?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=ff7de4177215de3f6d84f9200a209ca3",
+      "category": "Dragon Ball",
+      "name": "Gokú Ultra Instinto Incompleto",
+      "price": "175.00",
+      "description": "Funko pop de Gokú con su ultra instinto incompleto",
+      "id": "ae3d6ee2-1da4-49d9-9474-cbae028664ae"
+    },
+    {
+      "link": "https://www.planetafunk.com.pe/wp-content/uploads/2022/12/vegeta-powringup.jpg",
+      "category": "Dragon Ball",
+      "name": "Vegeta Super Saiyajin blue",
+      "price": "245",
+      "description": "Vegeta en modo Dios con el pelo color azul",
+      "id": "7305b556-fa47-4b7b-aff3-b74f9b030c53"
+    },
+    {
+      "link": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_121063664_2907893_1?wid=800&hei=800&qlt=70",
+      "category": "Dragon Ball",
+      "name": "Vegetto",
+      "price": "340",
+      "description": "Vegetto es el resultado de la unificación entre Vegeta y Kakarotto mediante los Pothala dados por las deidades Kaio-shin, existiendo como la contraparte de Gogeta, su fusión por la danza metamorana.",
+      "id": "45ac0f33-3b1b-43db-86fc-a254f30a21a3"
+    },
+    {
+      "link": "https://www.311-collectibles.nl/cdn/shop/files/311-FunkoPOP_-Animation-DragonBallZ-Gotenks319_SpecialEdition.jpg?v=1688829708",
+      "category": "Dragon Ball",
+      "name": "Gogeta",
+      "price": "483",
+      "description": "resultado de la fusión saiyana nacida mediante la unión entre Goku y Vegeta realizando la Danza de la Fusión de los metamoranos, existiendo como la contraparte de Vegetto, su Fusión Pothala.",
+      "id": "fedfbf6b-969b-424c-b50c-af700c2ca184"
+    }
+  ]
+}

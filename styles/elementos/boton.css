@@ -1,0 +1,9 @@
+.boton{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--texto-azul-100);
+    color: var(--texto-blanco-100);
+    cursor: pointer;
+    font-family: var(--texto-familia);
+}
