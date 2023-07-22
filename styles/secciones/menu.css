@@ -1,6 +1,8 @@
 .menu {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 2rem 0;
 }
 
@@ -28,17 +30,43 @@
   outline: none;
   background-color: transparent;
   flex: auto;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-family: var(--texto-familia);
 }
 .menu__buscador__input::placeholder {
   color: var(--texto-gris-50);
   font-family: var(--texto-familia);
 }
-.menu__buscador__icon {
+.menu__buscador__modal {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  width: 100%;
+}
+.menu__buscador__modal.hide {
+  display: none;
+}
+.menu__buscador__modal .menu__buscador__input {
+  background-color: var(--texto-gris-5);
+}
+.menu__buscador__modal .menu__buscador__input {
+  /* outline: 1px solid var(--texto-gris-100); */
+  padding: 0.5rem;
+  width: 100%;
+}
+.menu__buscador__boton {
+  border: none;
+  outline: none;
+  background-color: transparent;
   cursor: pointer;
+  padding: 0;
 }
 .menu__logo a {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.menu__derecha {
   display: flex;
   align-items: center;
 }
@@ -47,19 +75,69 @@
   border: 1px solid var(--texto-azul-100);
   background-color: transparent;
   padding: 1rem;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 600;
   text-align: center;
   width: 11.375rem;
   cursor: pointer;
   font-family: var(--texto-familia);
+  margin: 0;
 }
-@media screen and (max-width:870px) {
-  .menu__buscador{
-    display: none;
+.menu__boton__login:hover {
+  color: var(--texto-blanco-100);
+  background-color: var(--texto-azul-100);
+}
+.menu__buscador__icon--activo {
+  display: none;
+}
+
+@media screen and (max-width: 870px) {
+  .menu {
+    padding: 1rem 0;
   }
-  .menu__boton__login{
-    width: 6.3125rem;
+  .menu__logo {
+    width: 8rem;
+  }
+  .menu__logo img:first-child {
+    width: 28.25%;
+  }
+  .menu__logo img:last-child {
+    width: 71.75%;
+  }
+  .menu__boton__login {
+    width: 10.375rem;
+    padding: 0.825rem 1rem;
+  }
+  .menu__buscador {
+    width: 15rem;
   }
 }
 
+@media screen and (max-width: 641px) {
+  .menu__logo {
+    width: 7rem;
+  }
+  .menu__logo img:first-child {
+    width: 28.25%;
+  }
+  .menu__logo img:last-child {
+    width: 71.75%;
+  }
+
+  .menu__buscador {
+    display: none;
+  }
+
+  .menu__buscador__icon--activo {
+    display: block;
+  }
+  .menu__derecha {
+    flex: auto;
+    justify-content: center;
+  }
+
+  .menu__boton__login {
+    width: 8rem;
+    padding: 0.825rem 1rem;
+  }
+}

@@ -8,6 +8,7 @@ formElements.forEach((element) => {
 
 function validate(element) {
   const dataType = element.dataset.type;
+  console.log(element.validity.valid);
   if (validators[dataType]) validators[dataType](element);
 
   if (element.validity.valid) {
@@ -16,15 +17,17 @@ function validate(element) {
       "";
   } else {
     element.parentElement.classList.add("entrada__mensaje--invalido");
-    console.log(
-      element.parentElement.querySelector(".entrada__mensaje__error")
-    );
     element.parentElement.querySelector(".entrada__mensaje__error").innerHTML =
       ErrorMessage(element, dataType);
   }
 }
 
-const typeOfErrors = ["valueMissing", "customError", "tooShort"];
+const typeOfErrors = [
+  "valueMissing",
+  "customError",
+  "tooShort",
+  "typeMismatch",
+];
 const errorMessage = {
   nombre: {
     valueMissing: "El campo no puede estar vacio.",
@@ -34,6 +37,15 @@ const errorMessage = {
   mensaje: {
     valueMissing: "El campo no puede estar vacio.",
     tooShort: "El campo mensaje debe tener más de 10 caracteres",
+  },
+  email: {
+    valueMissing: "El campo no debe estar vacío.",
+    typeMismatch: "Debes agregar un correo válido",
+    customError: "correo electrónico o contraseña errónea",
+  },
+  password: {
+    valueMissing: "El campo no debe estar vacío.",
+    customError: "correo electrónico o contraseña errónea",
   },
 };
 const validators = {

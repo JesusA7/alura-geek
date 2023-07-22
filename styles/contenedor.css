@@ -1,19 +1,19 @@
-.contenedor{
-    width: 1200px;
+.contenedor {
+  width: 1200px;
 }
 
-@media screen and (max-width : 1216px) {
-    .contenedor{
-        width: 100%;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+@media screen and (max-width: 1216px) {
+  .contenedor {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
-@media screen and (max-width : 426px) {
-    .contenedor{
-        width: 100%;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+@media screen and (max-width: 426px) {
+  .contenedor {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }

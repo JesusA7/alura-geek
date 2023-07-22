@@ -4,6 +4,11 @@
       "id": 1,
       "email": "admin@alurageek.com",
       "password": "123456"
+    },
+    {
+      "id": 2,
+      "email": "contacto@alurageek.com",
+      "password": "Alura%?123"
     }
   ],
   "products": [
@@ -86,6 +91,86 @@
       "price": "483",
       "description": "resultado de la fusión saiyana nacida mediante la unión entre Goku y Vegeta realizando la Danza de la Fusión de los metamoranos, existiendo como la contraparte de Vegetto, su Fusión Pothala.",
       "id": "fedfbf6b-969b-424c-b50c-af700c2ca184"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/51SmRmsBbVL._AC_UF894,1000_QL80_.jpg",
+      "category": "Star Wars",
+      "name": "Mace Windu",
+      "price": "43.90",
+      "description": "fue un Maestro Jedi humano y miembro del Alto Consejo Jedi durante los últimos días de la República Galáctica. Nacido en el planeta Haruun Kal, Windu fue entrenado en los caminos de la Fuerza debido a su fuerte conexión con ella. Al ascender al rango de Maestro, empezó a ser conocido como el campeón de la Orden Jedi, un honor que acarreó hasta años después de su muerte.",
+      "id": "e1d56205-593f-4018-9fc6-9961a54de86a"
+    },
+    {
+      "link": "https://m.media-amazon.com/images/I/51vjhLR6ubL.jpg",
+      "category": "Star Wars",
+      "name": "Luke Skywalker",
+      "price": "899.99",
+      "description": "Luke Skywalker fue un humano sensible a la Fuerza y un Maestro Jedi quien, junto a su hermana gemela, la Princesa Leia Organa, luchó en contra del gobierno del Imperio Galáctico durante la Guerra Civil Galáctica. Hijo del Caballero Jedi Anakin Skywalker y de la Senadora Padmé Amidala de Naboo, Luke nació poco después del final de la Guerras Clon el 19 ABY.",
+      "id": "e5c5d858-f584-488a-a714-6519c59937c4"
+    },
+    {
+      "link": "https://http2.mlstatic.com/D_Q_NP_841787-MLA44484414455_012021-O.webp",
+      "category": "Consolas",
+      "name": "Play Station 5",
+      "price": "800",
+      "description": "La quinta consola de videojuegos de sobremesa desarrollada por la empresa Sony Interactive Entertainment. Fue anunciada en el año 2019 como la sucesora de la PlayStation 4.",
+      "id": "a2426385-1a09-433b-ad48-a1d447240805"
+    },
+    {
+      "link": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/b1b3acbc0202483c849d0c38e45e9b9f_Large.jpg",
+      "category": "Consolas",
+      "name": "Nintendo Switch",
+      "price": "359.00",
+      "description": "Consola de videojuegos desarrollada por Nintendo. Conocida en el desarrollo por su nombre código «NX», se dio a conocer en octubre de 2016 y fue lanzada mundialmente el 3 de marzo de 2017.",
+      "id": "7a48b27a-bb4c-4298-8226-57ea95959f49"
+    },
+    {
+      "link": "https://home.ripley.com.pe/Attachment/WOP_5/2031306448829/2031306448829_2.jpg",
+      "category": "Consolas",
+      "name": "Xbox Series X",
+      "price": "759",
+      "description": "La Xbox más rápida y potente de la historia, ya que logra alcanzar la soñada resolución 4K (con posibilidad de HDR 8K), ray tracing y hasta 120 fps.",
+      "id": "adcf5c86-ed5e-4eb9-873e-6fff04660245"
+    },
+    {
+      "link": "https://http2.mlstatic.com/D_NQ_NP_728865-MLA54949023053_042023-O.webp",
+      "category": "Consolas",
+      "name": "Play Station 4",
+      "price": "469.99",
+      "description": "la cuarta videoconsola del modelo PlayStation.​ Es la segunda consola de Sony en ser diseñada por Mark Cerny y forma parte de las videoconsolas de octava generación",
+      "id": "8ce2d1ff-2710-4b6e-83e3-43b354b71b0b"
+    },
+    {
+      "link": "https://hiraoka.com.pe/media/catalog/product/cache/a357cb11a228eb6f7f15c0ee1ff203af/1/2/127626_1.jpg",
+      "category": "Consolas",
+      "name": "Xbox Series S",
+      "price": "399.99",
+      "description": "es una consola de juegos totalmente digital para disfrutar de juegos sin discos. Los juegos en disco no son compatibles con Xbox Series S.",
+      "id": "2e3981bb-95f3-4102-bea4-8daef40bf067"
+    },
+    {
+      "link": "https://falabella.scene7.com/is/image/FalabellaPE/15126209_1?wid=800&hei=800&qlt=70",
+      "category": "Consolas",
+      "name": "Play Station 3",
+      "price": "109.99",
+      "description": "es la tercera videoconsola descontinuada del modelo PlayStation de Sony Computer Entertainment.",
+      "id": "6d619a71-4b20-4115-934f-2eeb220764b2"
+    },
+    {
+      "link": "https://i.pinimg.com/1200x/f8/9f/a1/f89fa1e78764ea24319d9a62ec9d7b5e.jpg",
+      "category": "Dragon Ball",
+      "name": "Gogeta Fase 4",
+      "price": "499",
+      "description": "Gogeta (SS4) es un luchador caprichoso y juguetón. Plenamente consciente de su superioridad, fruto de la fusión de Goku y Vegeta ya transformados en Super Saiyan 4.",
+      "id": "346e6e01-dd76-4da8-9594-cf5770cffe18"
+    },
+    {
+      "link": "https://funkospace.pe/cdn/shop/products/FU31633lg_580x.jpg?v=1631385452",
+      "category": "Dragon Ball",
+      "name": "Gokú Ultra Instinto Completo",
+      "price": "1000",
+      "description": "El Ultra Instinto de Goku es una manera de controlar sus emociones, por lo que no necesita transformarse para dominarlas.",
+      "id": "2ef50e14-7e1c-4a6e-b442-7f349ac52386"
     }
   ]
 }

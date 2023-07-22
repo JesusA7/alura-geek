@@ -1,4 +1,5 @@
-const URL = "https://alura-geek-red.vercel.app/products";
+import {url} from "../constants.mjs"
+const URL = url + "/products";
 
 const listProducts = async () => {
   const res = await fetch(URL);

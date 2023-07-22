@@ -45,37 +45,53 @@
               class="menu__buscador__input"
               type="text"
               placeholder="¿Qué deseas buscar?"
+              data-input-buscador="primario"
             />
+            <button
+              type="button"
+              class="menu__buscador__boton"
+              data-button-buscador="primario"
+            >
+              <img
+                class="menu__buscador__icon"
+                src="assets/Icone.svg"
+                alt="icono buscar"
+              />
+            </button>
+          </div>
+        </section>
+        <section class="menu__buscador__icon--activo">
+          <button
+            type="button"
+            class="menu__buscador__boton"
+            data-button-buscador="secundario"
+          >
             <img
               class="menu__buscador__icon"
               src="assets/Icone.svg"
               alt="icono buscar"
             />
-          </div>
+          </button>
         </section>
       </div>
+      <div class="contenedor">
+        <div class="menu__buscador__modal hide">
+          <input
+            class="menu__buscador__input"
+            type="text"
+            placeholder="¿Qué deseas buscar?"
+            data-input-buscador="secundario"
+          />
+        </div>
+      </div>
+      <script type="module" src="js/searchProduct.js"></script>
     </header>
     <main class="cuerpo">
       <section class="descripcion">
         <div class="contenedor">
-          <div class="descripcion__izquierda">
-            <img
-              class="descripcion__imagen"
-              src="https://pophuntersperu.com/cdn/shop/products/FunkoPopAnakinSkywalker.jpg?v=1644892200"
-              alt="Anakin"
-            />
-          </div>
+          <div class="descripcion__izquierda"></div>
           <div class="descripcion__derecha">
-            <div class="descripcion__contenedor">
-              <h2 class="descripcion__titulo">ProductoXYZ</h2>
-              <h3 class="descripcion__precio">S/ 40.00</h3>
-              <p class="descripcion__descripcion">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Exercitationem esse autem, reiciendis accusamus commodi
-                voluptatum est blanditiis fugit veniam sed cumque similique
-                voluptate ipsam corrupti quo adipisci eius alias quod?
-              </p>
-            </div>
+            <div class="descripcion__contenedor"></div>
           </div>
         </div>
       </section>
@@ -85,9 +101,7 @@
             <div class="categoria__cabecera">
               <h3 class="categoria__titulo">Productos similares</h3>
             </div>
-            <div class="categoria__productos">
-              
-            </div>
+            <div class="categoria__productos"></div>
           </div>
         </section>
       </section>
@@ -122,19 +136,34 @@
                   id="nombre"
                   name="nombre"
                   type="text"
+                  maxlength="50"
+                  minlength="3"
+                  autocomplete="off"
                   placeholder=" "
+                  required
+                  data-type="nombre"
                 />
                 <label class="entrada__etiqueta" for="nombre">nombre</label>
+                <span class="entrada__mensaje__error"
+                  >❗Descripción del mensaje de error</span
+                >
               </div>
               <div class="contenedor__area__texto">
                 <textarea
                   class="area__texto"
                   name="mensaje"
                   id="mensaje"
+                  required
                   placeholder=" "
+                  maxlength="500"
+                  minlength="10"
+                  data-type="mensaje"
                 ></textarea>
                 <label class="area__etiqueta" for="mensaje"
                   >Escribe tu mensaje</label
+                >
+                <span class="entrada__mensaje__error"
+                  >❗Descripción del mensaje de error</span
                 >
               </div>
               <div>
@@ -151,6 +180,10 @@
       <p>&copy Desarrollado por Jesús Amable</p>
       <p>2023</p>
     </footer>
-    <script type="module" src="controllers/descriptionProduct.controller.js"></script>
+    <script type="module" src="js/formContact.js"></script>
+    <script
+      type="module"
+      src="controllers/descriptionProduct.controller.js"
+    ></script>
   </body>
 </html>

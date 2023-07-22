@@ -43,30 +43,66 @@
               class="menu__buscador__input"
               type="text"
               placeholder="¿Qué deseas buscar?"
+              data-input-buscador="primario"
             />
+            <button
+              type="button"
+              class="menu__buscador__boton"
+              data-button-buscador="primario"
+            >
+              <img
+                class="menu__buscador__icon"
+                src="assets/Icone.svg"
+                alt="icono buscar"
+              />
+            </button>
+          </div>
+        </section>
+        <section class="menu__buscador__icon--activo">
+          <button
+            type="button"
+            class="menu__buscador__boton"
+            data-button-buscador="secundario"
+          >
             <img
               class="menu__buscador__icon"
               src="assets/Icone.svg"
               alt="icono buscar"
             />
-          </div>
+          </button>
         </section>
       </div>
+      <div class="contenedor">
+        <div class="menu__buscador__modal hide">
+          <input
+            class="menu__buscador__input"
+            type="text"
+            placeholder="¿Qué deseas buscar?"
+            data-input-buscador="secundario"
+          />
+        </div>
+      </div>
+      <script type="module" src="js/searchProduct.js"></script>
     </header>
     <main class="cuerpo">
       <section class="acceso">
         <div class="contenedor">
-          <form  class="acceso__formulario" data-form-login>
+          <form class="acceso__formulario" data-form-login>
             <h2 class="acceso__titulo">Iniciar Sesión</h2>
             <div class="contenedor__entrada__texto">
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
                 class="entrada__texto"
                 placeholder=" "
+                required
+                data-type="email"
               /><label for="email" class="entrada__etiqueta"
                 >Escriba su correo Electrónico</label
+              >
+              <span class="entrada__mensaje__error"
+                >❗Descripción del mensaje de error</span
               >
             </div>
             <div class="contenedor__entrada__texto">
@@ -76,13 +112,16 @@
                 name="password"
                 class="entrada__texto"
                 placeholder=" "
+                required
+                data-type="password"
               /><label for="password" class="entrada__etiqueta"
                 >Escriba su contraseña</label
               >
+              <span class="entrada__mensaje__error"
+                >❗Descripción del mensaje de error</span
+              >
             </div>
-            <button class="acceso__boton boton" type="submit">
-              Entrar
-            </button>
+            <button class="acceso__boton boton" type="submit">Entrar</button>
           </form>
         </div>
       </section>
@@ -117,19 +156,34 @@
                   id="nombre"
                   name="nombre"
                   type="text"
+                  maxlength="50"
+                  minlength="3"
+                  autocomplete="off"
                   placeholder=" "
+                  required
+                  data-type="nombre"
                 />
                 <label class="entrada__etiqueta" for="nombre">nombre</label>
+                <span class="entrada__mensaje__error"
+                  >❗Descripción del mensaje de error</span
+                >
               </div>
               <div class="contenedor__area__texto">
                 <textarea
                   class="area__texto"
                   name="mensaje"
                   id="mensaje"
+                  required
                   placeholder=" "
+                  maxlength="500"
+                  minlength="10"
+                  data-type="mensaje"
                 ></textarea>
                 <label class="area__etiqueta" for="mensaje"
                   >Escribe tu mensaje</label
+                >
+                <span class="entrada__mensaje__error"
+                  >❗Descripción del mensaje de error</span
                 >
               </div>
               <div>
@@ -146,6 +200,7 @@
       <p>&copy Desarrollado por Jesús Amable</p>
       <p>2023</p>
     </footer>
+    <script type="module" src="js/formContact.js"></script>
     <script type="module" src="controllers/login.controller.js"></script>
   </body>
 </html>

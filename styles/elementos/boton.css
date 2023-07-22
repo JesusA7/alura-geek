@@ -1,9 +1,15 @@
-.boton{
-    padding: 1rem;
-    border: none;
-    outline: none;
-    background-color: var(--texto-azul-100);
-    color: var(--texto-blanco-100);
-    cursor: pointer;
-    font-family: var(--texto-familia);
+.boton {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--texto-azul-100);
+  color: var(--texto-blanco-100);
+  cursor: pointer;
+  font-family: var(--texto-familia);
+}
+.boton:hover {
+  color: var(--texto-azul-100);
+  background: var(--texto-blanco-100);
+  outline: 2px solid var(--texto-azul-100);
+  font-weight: 900;
 }
