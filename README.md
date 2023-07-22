@@ -1,6 +1,6 @@
 # Challenge ONE | Front End - AluraGeek
 
----
+## [Acceder a la página](https://alura-geek-red.vercel.app)
 
 ### Acceso al Login para modificar los productos
 
@@ -10,4 +10,4 @@
 
 ### Vista Previa del inicio de la página
 
-[Acceder a la página](https://alura-geek-red.vercel.app/assets/pantalla-principal.png)
+![image](https://alura-geek-red.vercel.app/assets/pantalla-principal.png)
