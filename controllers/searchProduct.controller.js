@@ -45,7 +45,7 @@ function getSearchCriteria() {
         let contentSubtitulo = "";
         switch (ProductsFiltered.length) {
           case 0:
-            contentSubtitulo = "No se encpntró ningún producto";
+            contentSubtitulo = "No se encontró ningún producto";
             break;
           case 1:
             contentSubtitulo = "Se encontró 1 producto";
